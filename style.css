@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 200vh;
+}
+.container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#child {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
